@@ -1,13 +1,21 @@
-Hello fam, 
+# AzarBank
 
-this is just a part of learning html and css. this is a website of an imagenery bank. not added interactive buttons or animations for now.
-just copying from a youtuber for now. 
+AzarBank is a fictional banking website that I built while learning HTML, CSS, and JavaScript.
 
-#UPDATE : 
+About
 
-I have fixed the full issues with the code and added some perfect animations. Apart from just aniamtion i added some interactive activities 
-to the website like now you can click the request button and join this imagenery bank. 
+This project started as a practice project where I followed some web development tutorials to understand how modern websites are designed. After learning the basics, I modified the design, fixed layout issues, added animations, improved responsiveness, and implemented some interactive features.
 
-NB : I am learning it shortly so i got inspirations from some youtube videos for the animations. not exact copy although. 
+The website is not a real bank. It is only a front-end project created for learning purposes.
 
--Thank You
+AI Usage
+
+I used AI tools for debugging, code suggestions, and styling ideas during development. The project was built as part of my learning process and all changes were reviewed and implemented by me.
+
+Note
+
+Some parts of the design were inspired by web development tutorials and practice projects that I used while learning front-end development. (From youtube)
+
+Author
+
+NOVE-IQ/Azar

@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headtext {
+    font-family: Impact, sans-serif;
+    font-size: 139px;
+    animation: headfloat 8s ease-in-out infinite;
+    padding-top: 0;
+    padding-bottom: 10;
+}
+
+@keyframes headfloat {
+    0% { transform: translateY(0);}
+    50% { transform: translateY(50px);}
+    100% { transform: translateY(0);}
+}
+
+.heading {
+    align-items: center;
+    position: relative;
+
+}
+
+.headtextcontext {
+    font-family: Impact, sans-serif;
+    font-size: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
