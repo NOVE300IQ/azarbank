@@ -1,22 +1,389 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>ROCKyou Bank</title>
-    </head>
-    <body>
-        <header>
-            <div class="nav">
-                <div class="logo"><p>ROCKyou</p></div>
-                <div class="nav-items">
-                    
-                    <a href="#index.html">Home</a>
-                    <a href="#">Payments</a>
-                    <a href="#">About us</a>
-                    <a href="#">Bank Now!</a>
-                    
-                </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AzarBank | Digital Banking</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="AzarBank">
+        </a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+            <a href="careers.html">Careers</a>
+        </nav>
+
+        <button class="request_invite_btn" onclick="openInviteModal()">
+            Request Invite
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-text">
+
+                <h1>
+                    Next Generation
+                    Digital Banking
+                </h1>
+
+                <p>
+                    Take your financial life online. AzarBank
+                    gives you a simple place to spend, save,
+                    budget and manage your money.
+                </p>
+
+                <button
+                    class="request_invite_btn"
+                    onclick="openInviteModal()">
+                    Request Invite
+                </button>
+
             </div>
-        </header>
-    </body>
+
+            <div class="hero-image">
+
+                <img
+                    src="images/image-mockups.png"
+                    alt="AzarBank mobile banking app">
+
+            </div>
+
+        </section>
+
+
+        <section class="reason">
+
+            <div class="section-heading">
+
+                <h2>Why choose AzarBank?</h2>
+
+                <p>
+                    We want to make everyday banking easier,
+                    faster and more convenient.
+                </p>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <img
+                        src="images/icon-online.svg"
+                        alt="">
+
+                    <h3>Online Banking</h3>
+
+                    <p>
+                        Access your banking wherever you are
+                        without having to visit a branch.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <img
+                        src="images/icon-budgeting.svg"
+                        alt="">
+
+                    <h3>Simple Budgeting</h3>
+
+                    <p>
+                        Keep track of your spending and
+                        understand where your money goes.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <img
+                        src="images/icon-onboarding.svg"
+                        alt="">
+
+                    <h3>Fast Onboarding</h3>
+
+                    <p>
+                        Getting started should not take
+                        hours of complicated paperwork.
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <img
+                        src="images/icon-api.svg"
+                        alt="">
+
+                    <h3>Open API</h3>
+
+                    <p>
+                        Connect your financial tools and
+                        services with a flexible API.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="latest-articles">
+
+            <div class="section-heading">
+
+                <h2>Latest Articles</h2>
+
+            </div>
+
+
+            <div class="articles">
+
+                <article class="article-card">
+
+                    <img
+                        src="images/image-currency.jpg"
+                        alt="Currency">
+
+                    <div>
+
+                        <small>By AzarBank</small>
+
+                        <h3>
+                            Understanding Digital Money
+                        </h3>
+
+                        <p>
+                            A quick look at how digital banking
+                            is changing the way we manage money.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article-card">
+
+                    <img
+                        src="images/image-restaurant.jpg"
+                        alt="Restaurant">
+
+                    <div>
+
+                        <small>By AzarBank</small>
+
+                        <h3>
+                            Spending Smarter
+                        </h3>
+
+                        <p>
+                            A few simple ideas that can help
+                            you keep your spending under control.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article-card">
+
+                    <img
+                        src="images/image-plane.jpg"
+                        alt="Travel">
+
+                    <div>
+
+                        <small>By AzarBank</small>
+
+                        <h3>
+                            Banking Around The World
+                        </h3>
+
+                        <p>
+                            Discover how modern banking makes
+                            managing money while travelling easier.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-left">
+
+            <img src="images/logo.svg" alt="AzarBank">
+
+            <div class="socials">
+
+                <a href="#">
+                    <img src="images/icon-facebook.svg" alt="Facebook">
+                </a>
+
+                <a href="#">
+                    <img src="images/icon-youtube.svg" alt="YouTube">
+                </a>
+
+                <a href="#">
+                    <img src="images/icon-twitter.svg" alt="Twitter">
+                </a>
+
+                <a href="#">
+                    <img src="images/icon-instagram.svg" alt="Instagram">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html">Blog</a>
+            </div>
+
+            <div>
+                <a href="careers.html">Careers</a>
+                <a href="contact.html">Support</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-right">
+
+            <button
+                class="request_invite_btn"
+                onclick="openInviteModal()">
+                Request Invite
+            </button>
+
+            <p>
+                © 2026 AzarBank
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Invite popup -->
+
+    <div class="modal" id="inviteModal">
+
+        <div class="modal-box">
+
+            <button
+                class="close-modal"
+                onclick="closeInviteModal()">
+                ×
+            </button>
+
+            <div id="inviteFormContainer">
+
+                <div class="modal-icon">✦</div>
+
+                <h2>Join AzarBank</h2>
+
+                <p>
+                    Enter your details and we'll add you
+                    to our invite list.
+                </p>
+
+                <form id="inviteForm">
+
+                    <label>
+                        Name
+                        <input
+                            type="text"
+                            id="inviteName"
+                            placeholder="Your name"
+                            required>
+                    </label>
+
+                    <label>
+                        Email
+                        <input
+                            type="email"
+                            id="inviteEmail"
+                            placeholder="you@example.com"
+                            required>
+                    </label>
+
+                    <button type="submit">
+                        Request Access
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <div class="success" id="inviteSuccess">
+
+                <div class="success-icon">
+                    ✓
+                </div>
+
+                <h2>You're on the list!</h2>
+
+                <p>
+                    Thanks for your interest in AzarBank.
+                </p>
+
+                <button
+                    class="request_invite_btn"
+                    onclick="closeInviteModal()">
+                    Done
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
