@@ -6,7 +6,7 @@ this time I was learning HTML, CSS and Javascript, so I decided to make a fake b
 
 AzarBank is just a fictional digital banking website. I started it while following some tutorials, then slowly changed stuff, fixed my broken CSS, added animations and made the buttons actually do something.
 
-![AzarBank](/screenshot.png)
+![AzarBank](/screenshot11.png)
 
 You can check the Home, About Us, Contact, blog and careers pages. The Request Invite button also works now, so congratulations, you can officially pretend to join a bank that doesn't exist 💀.
 
